@@ -1,0 +1,32 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Dataflow 1",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "DefaultDestination": {
+      "queryId": "05234750-ee40-47d6-a8cc-f16ed556560a",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "ecdc_cases": {
+      "queryId": "a70dcec7-6653-45c7-9d50-1a53723b74f3",
+      "queryName": "ecdc_cases",
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"59e0759d-f9a8-47a3-9efe-69e92234a041\",\"DatasourceId\":\"126355d4-45ea-415c-a50f-5d03cefd0d6e\"}"
+    },
+    {
+      "path": "https://myunt-my.sharepoint.com/personal/ramakanthkothapalli_my_unt_edu/",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"59e0759d-f9a8-47a3-9efe-69e92234a041\",\"DatasourceId\":\"00e08833-aac7-4869-9e7c-0d919a752a42\"}"
+    }
+  ]
+}
